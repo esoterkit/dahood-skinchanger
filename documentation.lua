@@ -1,0 +1,2 @@
+-- Function name: SetMaskGroup(weaponID, skinID, modelID);
+-- Features: Custom Models, Custom Texture IDS
