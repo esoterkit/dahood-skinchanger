@@ -5,10 +5,12 @@ Here's an example on how to format it!
 ## Initializing
 
 ```lua
-local engine = Initialize(); -- Initializing our code
+-- loadstring..... (load the source.lua)
 
+-- your skin ID / MODEL table
 local skinIDS = { Revolver = { SnowWrap = "rbxassetid://11698051393" } } -- storing our TextureID
 
+-- Calling the function with our arguments
 SetMaskGroup("Revolver", skinIDS.Revolver.SnowWrap, 0); -- when putting 0 this will revert to the stock model.
 ```
 
